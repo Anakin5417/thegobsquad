@@ -130,3 +130,5 @@ Bot.onAnyMessage = function(msg) {
 };
 
 module.exports = Bot;
+
+client.login(process.env.BOT_TOLKEN);
